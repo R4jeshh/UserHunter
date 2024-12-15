@@ -1,20 +1,39 @@
-# Advanced Username Checker Tool
+# 🚀 Username Checker Tool
 
-This is a Python tool to check username availability across 20+ popular platforms like Instagram, YouTube, Telegram, and more.
+🌐 A Python-based tool to check username availability across **50+ popular platforms** like Instagram, YouTube, Telegram, Reddit, and more! Built for speed, accuracy, and a seamless user experience.
 
-## Features
-- Checks username availability on platforms like Instagram, Telegram, YouTube, Reddit, etc.
-- Multi-threaded for fast execution.
-- Clean and responsive interface with Rich library.
-- Automatically redirects users to your Telegram channel on first use.
+---
 
-## Installation
+## 📋 **Features**
+- 🔎 **Real-time username search** on 50+ platforms.
+- ⚡ **Multi-threading support** for lightning-fast results.
 
-### Requirements:
-- Python 3.x
-- Termux (for Android users)
+---
 
-### Steps:
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/<your-username>/Advanced-Username-Checker.git
+## 🛠️ **Platforms Supported**
+This tool supports username availability checks on the following platforms:
+- **Social Media**: Instagram, YouTube, Telegram, Facebook, Twitter, TikTok
+- **Forums**: Reddit, Quora
+- **Web Platforms**: Medium, WordPress, BlogSpot
+- **Tech Platforms**: GitHub, GitLab, Bitbucket
+- And many more!
+
+---
+
+## 💻 **Installation**
+
+### ⚙️ **Requirements**
+- **Python 3.x**
+- **Termux (for Android users)** or any Linux-based system
+- **pip** (Python package manager)
+
+---
+
+### 📂 **Step-by-Step Installation in Termux**
+
+#### **Step 1: Install Python in Termux**
+Run the following commands in Termux to install Python:
+```bash
+pkg update && pkg upgrade -y
+pkg install python -y
+pkg install git -y
